@@ -1,62 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="cytyle-flat cytyle-flat">
 <head>
-<meta charset="UTF-8">
-<title>AppleCyd Cydia Repo</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background: #0f0f0f;
-        color: #fff;
-        text-align: center;
-        padding: 40px;
-    }
-    h1 {
-        color: #4da3ff;
-    }
-    .card {
-        background: #1c1c1c;
-        padding: 20px;
-        margin: 20px auto;
-        max-width: 500px;
-        border-radius: 10px;
-    }
-    a.button {
-        display: inline-block;
-        margin-top: 15px;
-        padding: 12px 20px;
-        background: #4da3ff;
-        color: #000;
-        text-decoration: none;
-        font-weight: bold;
-        border-radius: 6px;
-    }
-    a.button:hover {
-        background: #78b7ff;
-    }
-    .small {
-        color: #aaa;
-        font-size: 14px;
-    }
-</style>
+	<title>applecyd Cydia Repo</title>
+
+	<link rel="stylesheet" type="text/css" href="//cydia.saurik.com/cytyle/style-814ed94d029255e832932322f7cc9d7fb2de0071.css">
+	<script type="text/javascript" src="//cydia.saurik.com/cytyle/style-3c578a2a65b28de08a903cddcf2ea0feae341e61.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="description" content="applecyd Cydia Repository">
+	<meta name="keywords" content="cydia,repo,ios,jailbreak,deb">
+
+	<style>
+		.package {
+			padding: 10px;
+		}
+		.pkg-name {
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.pkg-btn {
+			margin-top: 6px;
+			display: inline-block;
+			padding: 6px 12px;
+			background: #4a90e2;
+			color: #fff;
+			border-radius: 6px;
+			text-decoration: none;
+			font-size: 14px;
+		}
+	</style>
 </head>
-<body>
 
-<h1>🍎 AppleCyd Repo</h1>
-<p>Cydia repository for legacy iOS</p>
+<body class="pinstripe">
+<panel>
 
-<div class="card">
-    <h2>iTunesStoreX</h2>
-    <p>Fixes App Store connection on iOS 5–7</p>
-    <a class="button" href="debs/com.skyglow.itunesstorex_3.2_iphoneos-arm.deb">
-        ⬇ Download .DEB
-    </a>
-</div>
+	<!-- HEADER -->
+	<div style="margin:9px;padding:0 16px">
+		<div style="text-align:center">
+			<span style="font-size:23px;font-weight:bold">applecyd Cydia Repo</span><br>
+			<span style="font-size:13px;color:#666">cydia.applecyd.xyz</span>
+		</div>
+	</div>
 
-<p class="small">
-    Add to Cydia:<br>
-    <b>http://cydia.applecyd.xyz/</b>
-</p>
+	<block>
+		<p>
+			<b>Repo URL:</b><br>
+			<code>https://cydia.applecyd.xyz</code>
+		</p>
+	</block>
 
+	<label>Packages</label>
+	<fieldset>
+
+		<div class="package">
+			<div class="pkg-name">iTunesStoreX</div>
+			<div>Version: 3.2</div>
+			<a class="pkg-btn" href="/debs/com.skyglow.itunesstorex_3.2_iphoneos-arm.deb">
+				Download .DEB
+			</a>
+		</div>
+
+		<!--
+		⬆️
+		Когда добавишь НОВЫЙ .deb —
+		просто скопируй этот блок и поменяй имя файла
+		-->
+
+	</fieldset>
+
+	<block>
+		<p style="font-size:12px;color:#777">
+			Powered by GitHub Pages · Cydia UI
+		</p>
+	</block>
+
+</panel>
 </body>
 </html>
