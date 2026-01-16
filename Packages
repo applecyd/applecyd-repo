@@ -1,12 +1,12 @@
 Package: com.applecyd.test
 Version: 1.0
-Architecture: iphoneos-arm
+Architecture: all
 Maintainer: AppleCYD
 Filename: debs/testdeb_1.0_iphoneos-arm.deb
-Size: 536
-MD5sum: 1b307daf09511b14c63b9f551ebb7423
-SHA1: af84b3e0ba0f9b0899e8c432c20b6be792751f1e
-SHA256: 4cabaff2b43944d75fad26e27fd3fd9bdbc80c0cb2d2fc95a36ed0554a70af8e
+Size: 530
+MD5sum: 4eb297d1897c1408ba131fc0f7fa4433
+SHA1: 18f10890bbf60d9703b046b1eb952b50b7056326
+SHA256: 0deefc7983a3143dc56ccd28f6aa24b819bf9a185ee6ab38521fca9ccad59c9d
 Section: Utilities
 Priority: optional
 Description: Test package for checking Cydia repo visibility
