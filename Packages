@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: Sasha
 Depends: firmware (>= 5.0)
 Filename: debs/AppleCyd-iPad1-Test_1.0_iphoneos-arm.deb
-Size: 776
-MD5sum: 497baed699e85572a2330b57ffb576c9
-SHA1: c488bf76034fb6b7aa090760108afc67a8f9fc06
-SHA256: 4ca99417d571c08d619e71d4b3a3a167024f6df3e95bec2a29d81ef8290ab877
+Size: 642
+MD5sum: 4e90a3f76f275db1cdcd3150b9b03cff
+SHA1: e9b106ea6f549efd59a05a9b266e05fa61e78015
+SHA256: a58d06ac7c6a9b60731f3ceacb639a1c44483fdc80ec4668b4f0eeabc3710d3c
 Section: Utilities
 Description: Test package for iPad 1 (iOS 5.1.1)
 Author: Sasha
