@@ -3,14 +3,13 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: Sasha
 Installed-Size: 136
-Depends: firmware (>= 14.0)
 Filename: debs/com.applecyd.respring_1.0_iphoneos-arm64.deb
-Size: 2574
-MD5sum: 0043e08d5ac8f9168c3d510776561096
-SHA1: 378d0909f4b9808019e403398a0ca25a19711de2
-SHA256: 2168a0f36cb07335ea5cc69e0002913207248da61542f4742ac4cfc0813c5557
+Size: 2552
+MD5sum: ebd545c8115ae41904cb3523ca8afce7
+SHA1: 6157f6878e7a90b0934bfba0ec8bcfed934ad949
+SHA256: 5331b1717123089889d7f953f159f6accf27d03178b1f7786a97101c4a09c6d4
 Section: Tweaks
-Description: Simple respring utility for iOS 14+
+Description: Simple respring utility
 Author: Sasha
 Name: AppleCyd Respring
 
