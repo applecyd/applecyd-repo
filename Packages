@@ -3,12 +3,12 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: Sasha
 Installed-Size: 136
-Depends: mobilesubstrate
+Depends: ios (>= 14.0)
 Filename: debs/com.applecyd.respring_1.0_iphoneos-arm64.deb
-Size: 2568
-MD5sum: a753f38c4d54d35ad3cd981034c93a6b
-SHA1: ed6ad064268b71409b0055dbe56c44a681621566
-SHA256: 305edcb76957f836bc27abb6d35b8c2d74a44077eaeefa7c553f416636492947
+Size: 2572
+MD5sum: 07245c16c1d621ac92515108c8f2bb16
+SHA1: ddac18d16635b1c0ec4614ccd30f709d0c5c833c
+SHA256: d9192a15f9a5a5295fc21fd14a621ec563af32d0168d98943b962caf42f7228e
 Section: Tweaks
 Description: Simple respring tweak for iOS 14+
 Author: Sasha
