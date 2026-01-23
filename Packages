@@ -1,13 +1,13 @@
 Package: com.applecyd.respring
-Version: 1.0-2
-Architecture: iphoneos-arm64
+Version: 1.0-3
+Architecture: iphoneos-arm
 Maintainer: Sasha
 Installed-Size: 136
-Filename: debs/com.applecyd.respring_1.0-2_iphoneos-arm64.deb
+Filename: debs/com.applecyd.respring_1.0-3_iphoneos-arm.deb
 Size: 2546
-MD5sum: 5c422802c5f21e3817a32ea2beac5479
-SHA1: b62c57279e54a651f6d0a457053de24ab612bc18
-SHA256: a83a8ac20fe8c93d927711c4df5fc477a5f4c0280c95578791aa4fd226c1d0dd
+MD5sum: 09abfbed6bf018d79e791a5dc87bc3f0
+SHA1: 6572a07e8e3f37784c408b22f40d0f7f78b1ce16
+SHA256: f60ac33469e2952054f64d6a9803f3ca931e375a68851288e15421b353f9a27e
 Section: Tweaks
 Description: Simple respring utility
 Author: Sasha
